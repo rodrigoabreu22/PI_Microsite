@@ -82,7 +82,7 @@ const config = {
           },
           { to: "/blog", label: "Minutes", position: "left" },
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/rodrigoabreu22/PI_Microsite',
             label: 'GitHub',
             position: 'right',
           },
