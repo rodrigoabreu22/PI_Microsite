@@ -1,0 +1,34 @@
+.team-members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member-card {
+    text-align: center;
+    margin: 20px;
+    flex: 1 1 200px;
+}
+
+.member-avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.member-name {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.member-role {
+    font-size: 1.2em;
+    color: gray;
+}
+
+.member-link {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: underline;
+}

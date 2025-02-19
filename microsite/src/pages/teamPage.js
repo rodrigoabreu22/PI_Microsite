@@ -1,5 +1,6 @@
 import React from 'react';
 import Layout from '@theme/Layout';
+import './teamPage.css';
 
 function TeamPage() {
     const members = [
@@ -35,20 +36,23 @@ function TeamPage() {
         }
     ];
 
+    const renderMembers = () => {
+        return members.map((member, index) => (
+            <div key={index} className="member-card">
+                <img src={member.image_url} alt={`${member.name}'s avatar`} className="member-avatar" />
+                <h2 className="member-name">{member.name}</h2>
+                <p className="member-role">{member.mainRole}</p>
+                <a href={member.url} target="_blank" rel="noopener noreferrer" className="member-link">GitHub Profile</a>
+            </div>
+        ));
+    };
+
     return (
         <Layout title="Team">
-            <div className="container mx-auto py-10 px-5">
+            <div className="container mx-auto py-10 px-5" style={{ marginTop: '30px' }}>
                 <h1 className="text-3xl font-bold text-center mb-6 mt-10">Our Team</h1>
-                <div className="flex flex-wrap justify-center gap-6">
-                    {members.map((member, index) => (
-                        <div key={index} className="bg-white shadow-md rounded-lg p-5 flex flex-col items-center text-center w-64">
-                            <img src={member.image_url} alt={member.name} className="w-24 h-24 rounded-full mb-4 border border-gray-200" />
-                            <a href={member.url} target="_blank" rel="noopener noreferrer" className="text-xl font-semibold text-blue-600 hover:underline">
-                                {member.name}
-                            </a>
-                            <p className="text-gray-500 text-sm mt-2">{member.mainRole}</p>
-                        </div>
-                    ))}
+                <div className="team-members">
+                    {renderMembers()}
                 </div>
             </div>
         </Layout>
