@@ -29,6 +29,9 @@
 .member-link {
     display: block;
     margin-top: 10px;
-    color: blue;
-    text-decoration: underline;
+}
+
+.github-icon {
+    width: 30px;
+    height: 30px;
 }

@@ -42,20 +42,24 @@ function TeamPage() {
                 <img src={member.image_url} alt={`${member.name}'s avatar`} className="member-avatar" />
                 <h2 className="member-name">{member.name}</h2>
                 <p className="member-role">{member.mainRole}</p>
-                <a href={member.url} target="_blank" rel="noopener noreferrer" className="member-link">GitHub Profile</a>
+                <a href={member.url} target="_blank" rel="noopener noreferrer" className="member-link">
+                    <img
+                        src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
+                        alt="GitHub Icon"
+                        className="github-icon"
+                    />
+                </a>
             </div>
         ));
     };
 
     return (
-        <Layout title="Team">
-            <div className="container mx-auto py-10 px-5" style={{ marginTop: '30px' }}>
-                <h1 className="text-3xl font-bold text-center mb-6 mt-10">Our Team</h1>
-                <div className="team-members">
-                    {renderMembers()}
-                </div>
+        <div className="container mx-auto py-10 px-5" style={{ marginTop: '30px', marginBottom: '30px' }}>
+            <h1 className="text-3xl font-bold text-center mb-6 mt-10" style={{ marginBottom: '20px' }}>Our Team</h1>
+            <div className="team-members">
+                {renderMembers()}
             </div>
-        </Layout>
+        </div>
     );
 }
 
