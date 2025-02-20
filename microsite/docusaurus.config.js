@@ -11,7 +11,7 @@ import { themes as prismThemes } from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Intelligence in Action: AI-Driven Networks',
-  tagline: '',
+  tagline: 'Use ML to improve 5G and Beyond-5G networks.',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -49,6 +49,7 @@ const config = {
           //  'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
+          onUntruncatedBlogPosts: 'ignore',
           showReadingTime: true,
           blogSidebarCount: "ALL",
           blogSidebarTitle: "Minutes",
@@ -69,10 +70,6 @@ const config = {
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
         title: 'Intelligence in Action: AI-Driven Networks',
-        logo: {
-          alt: 'My Site Logo',
-          src: 'img/logo.svg',
-        },
         items: [
           {
             type: 'docSidebar',

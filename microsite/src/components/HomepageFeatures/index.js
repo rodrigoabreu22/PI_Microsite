@@ -8,8 +8,7 @@ const FeatureList = [
     Svg: require('@site/static/img/network.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        Select relevant information from network data to be used by the ML model.
       </>
     ),
   },
@@ -18,18 +17,17 @@ const FeatureList = [
     Svg: require('@site/static/img/ai.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        An MLOps pipeline will be integrated into the network software to predict anomalies, enabling self-optimization. 
+        This will improve network efficiency, availability, and consistency.
       </>
     ),
   },
   {
-    title: 'Implementation on 5G networks',
+    title: 'Implementation on 5G and Beyond-5G networks',
     Svg: require('@site/static/img/5g.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Software to be implemented in the network software of telecommunications companies to improve the quality of service for their users.
       </>
     ),
   },
