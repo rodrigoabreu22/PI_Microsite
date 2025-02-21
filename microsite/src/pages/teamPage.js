@@ -39,7 +39,7 @@ function TeamPage() {
     const advisors = [
         {
             name: 'Rafael Teixeira',
-            image_url: '/img/rafael_teixeira.png',
+            image_url: 'img/rafael_teixeira.png',
             mainRole: 'Tutor',
         },
         {
@@ -49,7 +49,7 @@ function TeamPage() {
         },
         {
             name: 'Rui Aguiar',
-            image_url: '/img/rui_aguiar.jpg',
+            image_url: 'img/rui_aguiar.jpg',
             mainRole: 'Tutor',
         }   
     ]
