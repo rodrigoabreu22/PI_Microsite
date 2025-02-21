@@ -31,10 +31,28 @@ function TeamPage() {
         {
             name: 'Jorge Domingues',
             url: 'https://github.com/JorgeGuiDomingues',
-            image_url: 'https://avatars.githubusercontent.com/u/122064361?v=4',
+            image_url: 'https://avatars.githubusercontent.com/u/131367612?v=4',
             mainRole: 'Developer',
-        }
+        },
     ];
+
+    const advisors = [
+        {
+            name: 'Rafael Teixeira',
+            image_url: '/img/rafael_teixeira.png',
+            mainRole: 'Tutor',
+        },
+        {
+            name: 'Rafael Direito',
+            image_url: 'https://ca.slack-edge.com/T04CS13AB-U3BAN202J-ebd751d63db2-512',
+            mainRole: 'Tutor',
+        },
+        {
+            name: 'Rui Aguiar',
+            image_url: '/img/rui_aguiar.jpg',
+            mainRole: 'Tutor',
+        }
+    ]
 
     const renderMembers = () => {
         return members.map((member, index) => (
@@ -52,15 +70,27 @@ function TeamPage() {
             </div>
         ));
     };
-
-    return (
-        <div className="container mx-auto py-10 px-5" style={{ marginTop: '30px', marginBottom: '30px' }}>
-            <h1 className="text-3xl font-bold text-center mb-6 mt-10" style={{ marginBottom: '20px' }}>Our Team</h1>
-            <div className="team-members">
-                {renderMembers()}
+    
+    const renderAdvisors = () => {
+        return advisors.map((advisor, index) => (
+            <div key={index} className="member-card">
+                <img src={advisor.image_url} alt={`${advisor.name}'s avatar`} className="member-avatar" />
+                <h2 className="member-name">{advisor.name}</h2>
+                <p className="member-role">{advisor.mainRole}</p>
             </div>
+        ));
+    };
+    
+    return (
+        <div className="container mx-auto py-16 px-6">
+            <h1 className="section-title">Meet Our Team</h1>
+            <div className="team-members">{renderMembers()}</div>
+    
+            <h1 className="section-title" style={{marginTop: '50px'}}>Tutors</h1>
+            <div className="team-members">{renderAdvisors()}</div>
         </div>
     );
+    
 }
 
 export default TeamPage;
