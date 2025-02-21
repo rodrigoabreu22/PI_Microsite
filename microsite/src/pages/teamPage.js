@@ -51,7 +51,7 @@ function TeamPage() {
             name: 'Rui Aguiar',
             image_url: '/img/rui_aguiar.jpg',
             mainRole: 'Tutor',
-        }
+        }   
     ]
 
     const renderMembers = () => {
