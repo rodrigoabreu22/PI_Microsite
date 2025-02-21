@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[472],{5513:e=>{e.exports=JSON.parse('{"title":"Minutes","items":[{"title":"Minute 1","permalink":"/PI_Microsite/blog/Minute1/minute1","unlisted":false,"date":"2025-02-17T00:00:00.000Z"}]}')}}]);

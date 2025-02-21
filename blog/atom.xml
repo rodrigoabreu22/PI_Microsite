@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://github.com/PI_Microsite/blog</id>
+    <title>Intelligence in Action: AI-Driven Networks Blog</title>
+    <updated>2025-02-17T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
+    <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
+    <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 1]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute1/minute1</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute1/minute1"/>
+        <updated>2025-02-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:30</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito</li>
+<li>Rui Aguiar ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Dúvidas relacionadas com a implementação</li>
+<li>Arquitetura</li>
+<li>ML</li>
+<li>Tecnologias</li>
+<li>Contextualização das telecomunicações</li>
+<li>Microsite</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="considerações-acerca-do-projeto-com-o-orientador-rafael-teixeira">Considerações acerca do projeto com o orientador Rafael Teixeira<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#considera%C3%A7%C3%B5es-acerca-do-projeto-com-o-orientador-rafael-teixeira" class="hash-link" aria-label="Direct link to Considerações acerca do projeto com o orientador Rafael Teixeira" title="Direct link to Considerações acerca do projeto com o orientador Rafael Teixeira">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="dados"><strong>Dados</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#dados" class="hash-link" aria-label="Direct link to dados" title="Direct link to dados">​</a></h4>
+<ul>
+<li>Uma base de dados time series seria o mais adequado para o problema.</li>
+<li>Os dados terão de ser guardados antes de serem processados e, dependendo do pipeline, mais versões precisarão ser armazenadas.</li>
+<li>Os dados servirão para análise (não relacionado com ML): médias, medianas, máximos, mínimos, desvio padrão, etc.</li>
+<li>Trabalhar desde cedo com data streams, usando um dataset com timestamp para simular data stream.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="data-lake"><strong>Data Lake</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#data-lake" class="hash-link" aria-label="Direct link to data-lake" title="Direct link to data-lake">​</a></h4>
+<ul>
+<li>Devemos usar um host local.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="ml"><strong>ML</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#ml" class="hash-link" aria-label="Direct link to ml" title="Direct link to ml">​</a></h4>
+<ul>
+<li>Evitar que o modelo veja dados do futuro (apenas usá-los para teste) para não enviesar os resultados.</li>
+<li>Fazer pre-processed training.</li>
+<li>Não focar na complexidade do modelo no início.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="tecnologias"><strong>Tecnologias</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#tecnologias" class="hash-link" aria-label="Direct link to tecnologias" title="Direct link to tecnologias">​</a></h4>
+<ul>
+<li>TensorFlow ou Scikit-Learn podem ser úteis para ML.</li>
+<li>Kafka poderá ser a ferramenta mais adequada para a implementação do publish/subscribe do streaming de dados.</li>
+<li>Precisamos de ferramentas para monitoring.</li>
+<li>Grafana poderá ser útil para analisar os dados.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="considerações-acerca-do-projeto-com-o-orientador-rui-aguiar">Considerações acerca do projeto com o orientador Rui Aguiar<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#considera%C3%A7%C3%B5es-acerca-do-projeto-com-o-orientador-rui-aguiar" class="hash-link" aria-label="Direct link to Considerações acerca do projeto com o orientador Rui Aguiar" title="Direct link to Considerações acerca do projeto com o orientador Rui Aguiar">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="contextualização"><strong>Contextualização</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#contextualiza%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to contextualização" title="Direct link to contextualização">​</a></h4>
+<ul>
+<li>Apresentação do panorama das telecomunicações e 5G, especialmente em Portugal (exemplos da Meo, Vodafone, etc).</li>
+<li>Importância do software ser robusto, pois falhas podem impactar milhões de pessoas.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="arquitetura-5g"><strong>Arquitetura 5G</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#arquitetura-5g" class="hash-link" aria-label="Direct link to arquitetura-5g" title="Direct link to arquitetura-5g">​</a></h4>
+<ul>
+<li>Importante cumprir os standards, embora não seja possível cobrir todos com a API.</li>
+<li>Fundamental a abstração de cada componente.</li>
+<li>Desenvolver o software de forma modular, permitindo a substituição de partes da arquitetura para futuras melhorias.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apresentação-do-microsite-ao-orientador-rafael-teixeira"><strong>Apresentação do microsite ao orientador Rafael Teixeira</strong><a href="https://github.com/PI_Microsite/blog/Minute1/minute1#apresenta%C3%A7%C3%A3o-do-microsite-ao-orientador-rafael-teixeira" class="hash-link" aria-label="Direct link to apresentação-do-microsite-ao-orientador-rafael-teixeira" title="Direct link to apresentação-do-microsite-ao-orientador-rafael-teixeira">​</a></h3>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute1/minute1#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>O primeiro passo é <strong>data engineering</strong>.</li>
+<li>Devemos usar o que já está feito sempre que possível (não reinventar a roda).</li>
+<li>Existem ferramentas de <strong>Auto ML</strong>.</li>
+<li>A complexidade do ML não deve ser a prioridade; focar no restante das implementações primeiro.</li>
+<li>A complexidade do modelo dependerá do tempo disponível no final.</li>
+<li>No momento, <strong>focar na arquitetura</strong> e deixar detalhes da implementação para depois.</li>
+</ul>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
+</feed>
