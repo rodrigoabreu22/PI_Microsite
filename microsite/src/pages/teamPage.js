@@ -8,31 +8,31 @@ function TeamPage() {
             name: 'Rodrigo Abreu',
             url: 'https://github.com/rodrigoabreu22',
             image_url: 'https://avatars.githubusercontent.com/u/119303263?s=400&u=c2868d24cfc281fee84c38cff09cb813be0420b1&v=4',
-            mainRole: 'Developer',
+            mainRole: 'Team Manager, Backend Developer',
         },
         {
             name: 'Eduardo Lopes',
             url: 'https://github.com/odraude23',
             image_url: 'https://avatars.githubusercontent.com/u/120457563?v=4',
-            mainRole: 'Developer',
+            mainRole: 'DevOps Master, Architect',
         },
         {
             name: 'Hugo Ribeiro',
             url: 'https://github.com/xHuGODx',
             image_url: 'https://avatars.githubusercontent.com/u/108608507?v=4',
-            mainRole: 'Developer',
+            mainRole: 'Data Engineer, UI Engineer, Messaging & API Engineer',
         },
         {
             name: 'João Neto',
             url: 'https://github.com/FunnyJoaoneto',
             image_url: 'https://avatars.githubusercontent.com/u/122064361?v=4',
-            mainRole: 'Developer',
+            mainRole: 'Data Engineer, Messaging & API Engineer',
         },
         {
             name: 'Jorge Domingues',
             url: 'https://github.com/JorgeGuiDomingues',
             image_url: 'https://avatars.githubusercontent.com/u/131367612?v=4',
-            mainRole: 'Developer',
+            mainRole: 'Integration Engineer, UI Engineer',
         },
     ];
 
@@ -40,18 +40,19 @@ function TeamPage() {
         {
             name: 'Rafael Teixeira',
             image_url: require('@site/static/img/rafael_teixeira.png').default,
-            mainRole: 'Tutor',
-        },
-        {
-            name: 'Rafael Direito',
-            image_url: 'https://ca.slack-edge.com/T04CS13AB-U3BAN202J-ebd751d63db2-512',
-            mainRole: 'Tutor',
+            mainRole: 'Machine Learning Tutor',
         },
         {
             name: 'Rui Aguiar',
             image_url: require('@site/static/img/rui_aguiar.jpg').default,
-            mainRole: 'Tutor',
-        }   
+            mainRole: 'Project Supervisor',
+        },
+        {
+            name: 'Rafael Direito',
+            image_url: 'https://ca.slack-edge.com/T04CS13AB-U3BAN202J-ebd751d63db2-512',
+            mainRole: 'Networks Tutor',
+        },
+  
     ]
 
     const renderMembers = () => {
