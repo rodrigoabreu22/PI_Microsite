@@ -29,6 +29,20 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
+[data-theme='dark'] h1,
+[data-theme='dark'] h3,
+[data-theme='dark'] h2 {
+  color: white;
+}
+
+[data-theme='dark'] p,
+[data-theme='dark'] h4,
+[data-theme='dark'] h5,
+[data-theme='dark'] h6 {
+  color: #cccccc;
+}
+
 .footer {
-  margin-top: 50px; /* Adjust as needed */
+  margin-top: 50px;
+  /* Adjust as needed */
 }

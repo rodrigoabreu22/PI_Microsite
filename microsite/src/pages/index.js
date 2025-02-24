@@ -15,8 +15,8 @@ function HomepageHeader() {
         <Heading as="h1" className="hero__title">
           {siteConfig.title}
         </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-          <div className={styles.buttons}>
+        <p className="hero__subtitle" style={{ color: 'white' }}>{siteConfig.tagline}</p>
+        <div className={styles.buttons}>
         </div>
       </div>
     </header>

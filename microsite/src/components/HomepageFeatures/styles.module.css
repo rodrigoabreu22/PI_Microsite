@@ -10,7 +10,11 @@
   width: 200px;
 }
 
-.footer {
-  margin-top: 50px; /* Adjust as needed */
+[data-theme='dark'] .featureSvg {
+  fill: white;
 }
 
+.footer {
+  margin-top: 50px;
+  /* Adjust as needed */
+}

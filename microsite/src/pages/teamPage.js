@@ -52,7 +52,7 @@ function TeamPage() {
             image_url: 'https://ca.slack-edge.com/T04CS13AB-U3BAN202J-ebd751d63db2-512',
             mainRole: 'Networks Tutor',
         },
-  
+
     ]
 
     const renderMembers = () => {
@@ -66,12 +66,13 @@ function TeamPage() {
                         src="https://upload.wikimedia.org/wikipedia/commons/9/91/Octicons-mark-github.svg"
                         alt="GitHub Icon"
                         className="github-icon"
+                        style={{ backgroundColor: 'white', borderRadius: '100%', padding: '2px' }}
                     />
                 </a>
             </div>
         ));
     };
-    
+
     const renderAdvisors = () => {
         return advisors.map((advisor, index) => (
             <div key={index} className="member-card">
@@ -81,17 +82,17 @@ function TeamPage() {
             </div>
         ));
     };
-    
+
     return (
         <div className="container mx-auto py-16 px-6">
             <h1 className="section-title">Meet Our Team</h1>
             <div className="team-members">{renderMembers()}</div>
-    
-            <h1 className="section-title" style={{marginTop: '50px'}}>Tutors</h1>
+
+            <h1 className="section-title" style={{ marginTop: '50px' }}>Tutors</h1>
             <div className="team-members">{renderAdvisors()}</div>
         </div>
     );
-    
+
 }
 
 export default TeamPage;

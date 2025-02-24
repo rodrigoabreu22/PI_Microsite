@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ai.svg').default,
     description: (
       <>
-        An MLOps pipeline will be integrated into the network software to predict anomalies, enabling self-optimization. 
+        An MLOps pipeline will be integrated into the network software to predict anomalies, enabling self-optimization.
         This will improve network efficiency, availability, and consistency.
       </>
     ),
@@ -33,7 +33,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">

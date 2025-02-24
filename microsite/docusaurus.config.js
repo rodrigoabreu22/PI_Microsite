@@ -80,7 +80,7 @@ const config = {
           },
           { to: "/blog", label: "Minutes", position: "left" },
           {
-            href: 'https://github.com/rodrigoabreu22/PI_Microsite',
+            href: 'https://github.com/rodrigoabreu22/PI_AI-Driven_Networks',
             label: 'GitHub',
             position: 'right',
           },
