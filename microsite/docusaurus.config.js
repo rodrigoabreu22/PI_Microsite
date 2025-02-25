@@ -96,18 +96,6 @@ const config = {
                 label: 'MS1 - Inception Phase',
                 to: 'docs/category/ms1---inception-phase',
               },
-              {
-                label: 'MS2 - Elaboration Phase',
-                to: 'docs/category/ms2---elaboration-phase',
-              },
-              {
-                label: 'MS3 - Construction',
-                to: 'docs/category/ms3---construction',
-              },
-              {
-                label: 'MS4 - Transition',
-                to: 'docs/category/ms4---transition',
-              },
             ],
           },
           {
