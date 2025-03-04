@@ -4,10 +4,97 @@
         <title>Intelligence in Action: AI-Driven Networks Blog</title>
         <link>https://github.com/PI_Microsite/blog</link>
         <description>Intelligence in Action: AI-Driven Networks Blog</description>
-        <lastBuildDate>Mon, 24 Feb 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 03 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Minute 2]]></title>
+            <link>https://github.com/PI_Microsite/blog/Minute3/minute3</link>
+            <guid>https://github.com/PI_Microsite/blog/Minute3/minute3</guid>
+            <pubDate>Mon, 03 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Método]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues (remoto) ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Considerações sobre a integração com o core 5G.</li>
+<li>Atores e cenários.</li>
+<li>Arquitetura</li>
+<li>Use Cases</li>
+<li>Mockups da monitoring interface.</li>
+<li>Apresentação do SCRUM Board.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<p>Sobre a integração com o core 5G:</p>
+<ul>
+<li>É importante descobrir as interfaces e depois encontrar API.</li>
+<li>Focar no pipeline.</li>
+<li>Importante identificar que interfaces teria de ter para a comunicação entre os componentes e depois qual deveriamos implementar.</li>
+</ul>
+<p>Em relação aos casos de uso, apresentámos os levantados e um exemplo de um diagrams (segue em anexo):</p>
+<p>Feedback dos tutores:</p>
+<ul>
+<li>retirar alguns (está muito exaustivo).</li>
+<li>Pôr só 2 atores. Network/service provider e client para simplificar.</li>
+<li>Conectar os que se relacionam com o client a ele.</li>
+<li>No relatório apresentar todos os casos de uso, mas só implementar alguns. Os que serão implementados já darão trabalho suficiente.</li>
+<li>Focar no caso de uso "anomaly detection".</li>
+</ul>
+<p>Alguma informação do tutor Rafael Teixeira sobre o ML Ops pipeline:</p>
+<ul>
+<li>Tutor Rafael Teixeira vai fornecer um dataset para identificar-mos as métricas a usar no modelo.</li>
+<li>Dados raw são por exemplo, os recolhidos pelo wireshark a correr na rede.</li>
+<li>Ips, pedidos de conexão, etc. Traduzir isto para métricas.</li>
+<li>Output é suposto ser um csv. Este deve ser já processado e raw.</li>
+<li>Precisamos de um data warehouse para provenance.</li>
+</ul>
+<p>Foi apresentado uma ideia da arquitetura aos orientadores (segue em anexo).</p>
+<p>Feedback dos tutores:</p>
+<ul>
+<li>Organizar melhor o diagrama. Exemplo da arquitetura openslice como guia (segue em anexo).</li>
+<li>Temos de ter API no ML Model.</li>
+<li>Meter o monitoring system e o ML Model à direita.</li>
+<li>Manter a time series DB, é útil para o segundo caso de uso que será implementado.</li>
+<li>Como fazer a gestão do treino? -&gt; Ter data warehouse para guardar dados processados.</li>
+</ul>
+<p>Mockups da Monitoring Interface?</p>
+<p>Feedback dos tutores:</p>
+<ul>
+<li>Levar uns exemplos da interface de monitoring, embora o projeto não esteja muito virado para estes moldes.</li>
+<li>Justificar a falta de mockups. Especificar que o projeto é virado para o backend e o único dashboard que temos é o grafana.</li>
+</ul>
+<p>Foi-nos apresentado também um bom sistema de previsão de QoS e Assurance -&gt; Facebook Prophet.</p>
+<ul>
+<li>Apresentação do SCRUM Board do projeto para os tutores conseguirem acompanhar o progresso.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Daqui em diante fazer a parte correspondente à apresentação na documentação, antes da apresentação.</li>
+<li>Anotar as dúvidas nos pdfs do 3GPP para ser analisado pelo tutor Rafael Direito.</li>
+<li>Data lake: dados raw. Data warehouse: dados processados.</li>
+<li>Tentar ter esta milestone concluída sexta para os tutores avaliarem e termos tempo de corrigir coisas atempadamente.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
+<p><img decoding="async" loading="lazy" alt="Ideia de Diagrama de Casos apresentada" src="https://github.com/PI_Microsite/assets/images/image-6e385c11577d19524e2d02d0a70ae7bd.png" width="964" height="723" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Ideia de Arquitetura apresentada" src="https://github.com/PI_Microsite/assets/images/image-1-e8bba618877261e6cf3765eb427eab8e.png" width="768" height="534" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="Arquitetura Openslice" src="https://github.com/PI_Microsite/assets/images/image-2-ad736e11c0be131f45450ea35a5d71ee.png" width="1260" height="694" class="img_ev3q"></p>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Minute 2]]></title>
             <link>https://github.com/PI_Microsite/blog/Minute2/minute2</link>
