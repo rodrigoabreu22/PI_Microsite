@@ -8,7 +8,7 @@
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Minute 2]]></title>
+        <title type="html"><![CDATA[Minute 3]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute3/minute3</id>
         <link href="https://github.com/PI_Microsite/blog/Minute3/minute3"/>
         <updated>2025-03-03T00:00:00.000Z</updated>
@@ -90,9 +90,20 @@
 <li>Tentar ter esta milestone concluída sexta para os tutores avaliarem e termos tempo de corrigir coisas atempadamente.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute3/minute3#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
-<p><img decoding="async" loading="lazy" alt="Ideia de Diagrama de Casos apresentada" src="https://github.com/PI_Microsite/assets/images/image-6e385c11577d19524e2d02d0a70ae7bd.png" width="964" height="723" class="img_ev3q">
-<img decoding="async" loading="lazy" alt="Ideia de Arquitetura apresentada" src="https://github.com/PI_Microsite/assets/images/image-1-e8bba618877261e6cf3765eb427eab8e.png" width="768" height="534" class="img_ev3q">
-<img decoding="async" loading="lazy" alt="Arquitetura Openslice" src="https://github.com/PI_Microsite/assets/images/image-2-ad736e11c0be131f45450ea35a5d71ee.png" width="1260" height="694" class="img_ev3q"></p>]]></content>
+<ul>
+<li>
+<p>Ideia de Diagrama de Casos apresentada
+<img decoding="async" loading="lazy" alt="Ideia de Diagrama de Casos apresentada" src="https://github.com/PI_Microsite/assets/images/image-6e385c11577d19524e2d02d0a70ae7bd.png" width="964" height="723" class="img_ev3q"></p>
+</li>
+<li>
+<p>Ideia de Arquitetura apresentada
+<img decoding="async" loading="lazy" alt="Ideia de Arquitetura apresentada" src="https://github.com/PI_Microsite/assets/images/image-1-e8bba618877261e6cf3765eb427eab8e.png" width="768" height="534" class="img_ev3q"></p>
+</li>
+<li>
+<p>Arquitetura Openslice
+<img decoding="async" loading="lazy" alt="Arquitetura Openslice" src="https://github.com/PI_Microsite/assets/images/image-2-ad736e11c0be131f45450ea35a5d71ee.png" width="1260" height="694" class="img_ev3q"></p>
+</li>
+</ul>]]></content>
         <author>
             <name>Rodrigo Abreu</name>
             <uri>https://github.com/rodrigoabreu22</uri>
