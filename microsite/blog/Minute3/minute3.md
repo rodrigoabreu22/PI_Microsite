@@ -1,5 +1,5 @@
 ---
-title: "Minute 2"
+title: "Minute 3"
 date: "2025-03-03"
 authors: [rodrigo]
 ---
@@ -83,6 +83,11 @@ Foi-nos apresentado também um bom sistema de previsão de QoS e Assurance -> Fa
 - Tentar ter esta milestone concluída sexta para os tutores avaliarem e termos tempo de corrigir coisas atempadamente.
 
 ## Ficheiros relacionados
+- Ideia de Diagrama de Casos apresentada
 ![Ideia de Diagrama de Casos apresentada](image.png)
+
+- Ideia de Arquitetura apresentada
 ![Ideia de Arquitetura apresentada](image-1.png)
+
+- Arquitetura Openslice
 ![Arquitetura Openslice](image-2.png)
