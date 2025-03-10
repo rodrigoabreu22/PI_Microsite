@@ -4,10 +4,104 @@
         <title>Intelligence in Action: AI-Driven Networks Blog</title>
         <link>https://github.com/PI_Microsite/blog</link>
         <description>Intelligence in Action: AI-Driven Networks Blog</description>
-        <lastBuildDate>Mon, 03 Mar 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 10 Mar 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Minute 4]]></title>
+            <link>https://github.com/PI_Microsite/blog/Minute4/minute4</link>
+            <guid>https://github.com/PI_Microsite/blog/Minute4/minute4</guid>
+            <pubDate>Mon, 10 Mar 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Método]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>10:00 - 11:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto (remoto)✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Apresentação do powerpoint da MS2.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<p>Análise dos orientadores ao Powerpoint:</p>
+<p>Contexto e estado da arte:</p>
+<ul>
+<li>Estado da arte da NWDAF. Precisamos de ML porque é o estado da arte da implementação.</li>
+<li>5G precisa de ML, Solução NWDAF (SoA) e depois dizer o que vamos fazer.</li>
+<li>Distanciar da NWDAF.</li>
+<li>SoA tirar umas conclusões da cada paper.</li>
+</ul>
+<p>Casos de Uso:</p>
+<ul>
+<li>Exportar o diagrama com svg.</li>
+<li>Mudar o cenario -&gt; slide dá ideia que o cenario é ataques a robos. Tirar o svg do robô.</li>
+</ul>
+<p>Requirements:</p>
+<ul>
+<li>Pequenos ajustes em alguns.</li>
+<li>Redução de alguns, para ficarem apenas os principais.</li>
+</ul>
+<p>Non-functional:</p>
+<ul>
+<li>Meter os requisistos com medidas a serio, eram pouco objetivas.</li>
+</ul>
+<p>Arquitetura:</p>
+<ul>
+<li>meter em svg também.</li>
+<li>meter a seta bidirecional no metrics.</li>
+<li>Chronograph em vez do grafana.</li>
+<li>Dashboard interface subscribe. (seta nos 2 sentidos).</li>
+<li>Meter middleware entre o kafka e as BDs.</li>
+</ul>
+<p>Mockups</p>
+<p>Slide 1.</p>
+<ul>
+<li>meter metricas mais corretas.</li>
+<li>current anomaly rate -&gt; average anomaly probability.</li>
+<li>meter uplink e downlink.</li>
+</ul>
+<p>Slide 2.</p>
+<ul>
+<li>jitter -&gt; time series.</li>
+<li>tirar heatmaps.</li>
+</ul>
+<p>Slide 3.</p>
+<ul>
+<li>Cuidados com os ips.</li>
+<li>Meter tudo TCP.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Fazer os ajustes necessários ao powerpoint.</li>
+<li>Atualizar o microsite com as coisas da MS2.</li>
+<li>Preparar a apresentação da MS2.</li>
+<li>Atenção à gestão do tempo. (Temos muitos slides).</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute4/minute4#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
+<ul>
+<li>
+<p>Arquitetura antes das alterações:
+<img decoding="async" loading="lazy" alt="Arquitetura v1" src="https://github.com/PI_Microsite/assets/images/image-b6a80d2a11359c14ef8049587c33297e.png" width="1198" height="537" class="img_ev3q"></p>
+</li>
+<li>
+<p>Arquitetura depois das alterações (Versão MS2):
+<img decoding="async" loading="lazy" alt="Arquitetura v2" src="https://github.com/PI_Microsite/assets/images/arquitetura-4121836d2499313dbba5e81460c78b98.png" width="1011" height="451" class="img_ev3q"></p>
+</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Minute 3]]></title>
             <link>https://github.com/PI_Microsite/blog/Minute3/minute3</link>
