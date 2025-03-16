@@ -43,7 +43,7 @@ The system should:
 
 ### Scalability 
 
-- The system must efficiently process large volumes of data with a maximum processing latency of 100 milliseconds. 
+- The system must efficiently process large volumes of data with a maximum processing latency of 1 milliseconds. 
 
 ### Performance 
 
