@@ -24,7 +24,7 @@ In this model, the network/service provider interacts directly with the system, 
 In this project we aimed for only one of the identified use cases due to our limited resources and tight schedule, but the other ones may be implemented on future work. 
 
 ### Use Case to implement: Anomaly detection and fault prediction
-This use case focuses on detecting abnormal patterns in network behavior, predicting potential failures before they occur, and providing actionable insights to prevent service disruptions. 
+This use case focuses on detecting abnormal patterns in network behavior, predicting potential attacks before they occur, and providing actionable insights to prevent service disruptions. 
 
 The system leverages real-time data analytics, machine learning models, and historical network performance trends to identify anomalies and predict faults. 
 

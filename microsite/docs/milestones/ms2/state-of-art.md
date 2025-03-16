@@ -4,7 +4,6 @@ sidebar_position: 1
 
 # State of Art
 
-Context and State of the Art (SOA)
 In the field of machine learning operations (MLOps) and network analytics, the automation of machine learning workflows is crucial for ensuring scalability, efficiency, and reliability. In 5G networks, the Network Data Analytics Function (NWDAF) is responsible for collecting and analyzing network data to optimize performance and detect anomalies in real time.
 
 Recent research highlights the effectiveness of machine learning techniques in identifying abnormal traffic patterns and mitigating potential Distributed Denial-of-Service (DDoS) attacks [1]. NWDAF has been demonstrated to collect real-time data from 5G networks, facilitating anomaly detection and traffic analysis [1]. Furthermore, neural networks have shown superior performance in network load prediction compared to traditional linear regression models [2], improving forecasting accuracy. However, continuous retraining of models is necessary, as they tend to become biased over time, leading to performance degradation [3].

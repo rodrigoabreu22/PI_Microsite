@@ -23,9 +23,9 @@ The system should:
 - allow model training with stored data. 
 - implement automation in model training, supporting continuous re-training based on new data or data drift. 
 - validate and test the models using the obtained metrics. 
-- develop a continuous deployment mechanism to automatically move validated models from the test environment to production. 
+- support a continuous deployment mechanism to automatically move validated models from the test environment to production. 
 - be able to identify the relevant features for anomaly prediction. 
-- not allow the use of future data train the model. 
+- not allow the use of future data to train the model. 
 
 
 ### Monitoring Dashboard
