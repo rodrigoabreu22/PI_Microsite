@@ -2,11 +2,106 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-03-17T00:00:00.000Z</updated>
+    <updated>2025-03-24T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 6]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute6/minute6</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute6/minute6"/>
+        <updated>2025-03-24T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ❌</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Data Processor</li>
+<li>Dataset</li>
+<li>Estado da implementação</li>
+<li>Diagrama de fluxo de dados</li>
+<li>Apresentação checkpoint 1</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="data-processor">Data Processor<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#data-processor" class="hash-link" aria-label="Direct link to Data Processor" title="Direct link to Data Processor">​</a></h3>
+<p>Não mandar as features que o modelo não vai usar.</p>
+<p>Se mandarmos os ips vai fazer bias ao modelo.
+3 opções:</p>
+<ul>
+<li>eliminar tudo o que não preciso (melhor no nosso caso)</li>
+<li>método para preencher os dados</li>
+<li>definir como não possivel (pior no nosso caso)</li>
+</ul>
+<p>Guardar dados em tabela ou csv no data warehouse?</p>
+<p>Orientador Rafel Teixeira: "Para o modelo é melhor os dados tabelados, então devemos guardar tabelados."</p>
+<p>O modelo nunca aceita strings, o modelo aceita números.</p>
+<p>Não preocupar com isso para já, há ferramentas que transformam automaticamente.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="dataset">Dataset<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#dataset" class="hash-link" aria-label="Direct link to Dataset" title="Direct link to Dataset">​</a></h3>
+<p>Conseguimos tirar daqui o que é preciso:</p>
+<ul>
+<li>descrição dos features</li>
+<li>como obteram os dados</li>
+<li>etc</li>
+</ul>
+<p>paper associado: <a href="https://link.springer.com/article/10.1007/s11036-021-01843-0" target="_blank" rel="noopener noreferrer">https://link.springer.com/article/10.1007/s11036-021-01843-0</a></p>
+<p>usar o outro csv para dados raw.</p>
+<p>usar este para ver os dados pré-processados: <a href="https://espace.library.uq.edu.au/view/UQ:ffbb0c1" target="_blank" rel="noopener noreferrer">https://espace.library.uq.edu.au/view/UQ:ffbb0c1</a></p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="implementação">Implementação<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#implementa%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Implementação" title="Direct link to Implementação">​</a></h3>
+<ul>
+<li>ler pcaps em vez de csv</li>
+<li>alterar data producer, receiver, etc</li>
+<li>pcaps devem ser convertidos em algo para pôr no kafka</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="diagrama-de-sequência">Diagrama de sequência<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#diagrama-de-sequ%C3%AAncia" class="hash-link" aria-label="Direct link to Diagrama de sequência" title="Direct link to Diagrama de sequência">​</a></h3>
+<ul>
+<li>colocar kafka no meio e não separar em tópicos.</li>
+<li>colocar nrf (service registry). Prof. Aguiar falou disso.</li>
+<li>colocar tudo em inglês.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apresentação-checkpoint-1">Apresentação checkpoint 1<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#apresenta%C3%A7%C3%A3o-checkpoint-1" class="hash-link" aria-label="Direct link to Apresentação checkpoint 1" title="Direct link to Apresentação checkpoint 1">​</a></h3>
+<ul>
+<li>diagrama de fluxo dos dados deve ser o primeiro a ser apresentado.</li>
+<li>mostrar a arquitetura do mvp e o que já foi feito.</li>
+<li>Adicionar divisão de trabalho (coisas do github project)</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Fazer a apresentação ASAP.</li>
+<li>Importante fazer o refactoring para os pcaps rapido, para implementar o resto das features.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute6/minute6#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
+<ul>
+<li>
+<p>Logs avaliados
+<img decoding="async" loading="lazy" alt="logs python" src="https://github.com/PI_Microsite/assets/images/image-1-8c8e63db472321ca1a59653e8e3249a0.png" width="1542" height="599" class="img_ev3q">
+<img decoding="async" loading="lazy" alt="kafdrop" src="https://github.com/PI_Microsite/assets/images/image-2-b2878c9e8c74f7e9d06407efe6ff9817.png" width="1542" height="599" class="img_ev3q"></p>
+</li>
+<li>
+<p>Diagrama do fluxo de dados
+<img decoding="async" loading="lazy" alt="data flow diagram" src="https://github.com/PI_Microsite/assets/images/image-19e55fe5815d0d20ffbfb5f993c8d2bc.png" width="1559" height="455" class="img_ev3q"></p>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 5]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute5/minute5</id>
