@@ -1,8 +1,8 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
 ---
 
-# Deliverables 
+# Milestone 2 
 Deliverables from Milestone 2 - Elaboration
 
 [M2 Presentation](/files/ms2.pdf)

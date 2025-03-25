@@ -90,19 +90,6 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Documentation',
-            items: [
-              {
-                label: 'MS1 - Inception Phase',
-                to: 'docs/category/ms1---inception-phase',
-              },
-              {
-                label: 'MS2 - Elaboration Phase',
-                to: 'docs/category/ms2---elaboration-phase',
-              },
-            ],
-          },
-          {
             title: 'Team',
             items: [
               {
@@ -126,7 +113,87 @@ const config = {
                 to: 'https://github.com/JorgeGuiDomingues',
               }
             ]
-          }
+          },
+          {
+            title: 'Documentation',
+            items: [
+              {
+                label: 'Project Context',
+                to: 'docs/documentation/project_context',
+              },
+              {
+                label: 'State of Art',
+                to: 'docs/documentation/state-of-art',
+              },
+              {
+                label: 'Use Case & Scenario',
+                to: 'docs/documentation/use_cases',
+              },
+              {
+                label: 'Requirements',
+                to: 'docs/documentation/requirements',
+              },
+              {
+                label: 'Architecture',
+                to: 'docs/documentation/architecture',
+              },
+              {
+                label: 'Mockups',
+                to: 'docs/documentation/mockups',
+              },
+              {
+                label: 'Data Flow',
+                to: 'documentation/data_flow',
+              },
+
+            ],
+          },
+          {
+            title: 'Deliverables',
+            items: [
+              {
+                label: 'MS1 - Inception Phase',
+                to: 'docs/deliverables/ms1',
+              },
+              {
+                label: 'MS2 - Elaboration Phase',
+                to: 'docs/deliverables/ms2',
+              },
+              {
+                label: 'Checkpoint 1',
+                to: 'docs/deliverables/checkpoint1',
+              },
+            ],
+          },
+          {
+            title: 'Minutes',
+            items: [
+              {
+                label: 'Minute 1',
+                to: 'blog/Minute1/minute1',
+              },
+              {
+                label: 'Minute 2',
+                to: 'blog/Minute2/minute2',
+              },
+              {
+                label: 'Minute 3',
+                to: 'blog/Minute3/minute3',
+              },
+              {
+                label: 'Minute 4',
+                to: 'blog/Minute4/minute4',
+              },
+              {
+                label: 'Minute 5',
+                to: 'blog/Minute5/minute5',
+              },
+              {
+                label: 'Minute 6',
+                to: 'blog/Minute6/minute6',
+              },
+            ],
+          },
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Intelligence in Action: AI-Driven Networks, Inc. Built with Docusaurus.`,
       },
