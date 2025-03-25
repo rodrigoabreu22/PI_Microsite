@@ -143,7 +143,7 @@ const config = {
               },
               {
                 label: 'Data Flow',
-                to: 'documentation/data_flow',
+                to: 'docs/documentation/data_flow',
               },
 
             ],
