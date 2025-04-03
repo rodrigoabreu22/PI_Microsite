@@ -192,6 +192,10 @@ const config = {
                 label: 'Minute 6',
                 to: 'blog/Minute6/minute6',
               },
+              {
+                label: 'Minute 7',
+                to: 'blog/Minute7/minute7',
+              },
             ],
           },
         ],
