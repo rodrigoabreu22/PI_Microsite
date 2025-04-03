@@ -2,11 +2,82 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-03-24T00:00:00.000Z</updated>
+    <updated>2025-03-31T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 7]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute7/minute7</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute7/minute7"/>
+        <updated>2025-03-31T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ❌</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Dúvidas e problemas na implementação.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<ul>
+<li>Nos dados, apresentar só se é ataque ou não é ataque -&gt; tem mais accuracy.</li>
+<li>Com base no csv gerado por eles conseguimos tirar os identificadores.</li>
+<li>NUSW_NB15 groundtruth, com base neste conseguimos identificar qualquer um deles.</li>
+<li>Conseguimos saber quanto cada ataque aconteceu.</li>
+<li>Mesmo ip/porto de ataque: pode atacar ou não atacar, ou atacar de forma diferente. Ver os timestamps do ataque.</li>
+<li>Filtrar por src ip e filtrar com o timestamp. Se não acontecer nada é não ataque.</li>
+<li>Tudo o que estivar naquele csv é ataque. O que não estiver não é ataque.</li>
+<li>Espetar este csv na bd e fazer queries à bd. Ou usar frameworks do python.</li>
+<li>Treinar modelos é dados históricos.</li>
+<li>Não temos groundtruth no live data.</li>
+<li>Conjunto de dados históricos pré-carregados na bd.</li>
+<li>O edu concluiu coisas da implementação.</li>
+<li>nprobe funciona em batch.</li>
+<li>Se ele funciona por conexão temos de ter a certeza que todas as comunicações já comunicaram.</li>
+<li>Tem que se analisar o nprobe.</li>
+<li>Os dados raw são mandados para a timeseries. Num dado momento o processor vais buscar à timeseries quando for preciso processar.</li>
+<li>Usar o scapy.</li>
+<li>A conversão dos dados (bytes dos pacotes) faz-se no Data Receiver. -&gt; diminui o numero de conversões.</li>
+<li>Meter em pcap no processor, se tiver de ser.</li>
+<li>Quanto menos conversões melhor.</li>
+<li>Ver o tamanho das batches que nós temos.</li>
+<li>Normalização faz-se quando tivermos de carregar para o dataset de treino.</li>
+<li>E vai depender de como estivermos a dividir o dataset.</li>
+<li>Dependendo do algoritmo do modelo, usaremos diferentes tipos de normalização.</li>
+<li>InfluxDB está indexado ao tempo e aproveitaremos para fazer queries com base nisto.</li>
+<li>Data drift obriga o retraining e redployment e do modelo.</li>
+<li>Dados de treino têm sempre ground truth, exceto se for unsupervised learning.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="depois-do-mvp">Depois do mvp:<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#depois-do-mvp" class="hash-link" aria-label="Direct link to Depois do mvp:" title="Direct link to Depois do mvp:">​</a></h4>
+<ul>
+<li>Implementar os standards.</li>
+<li>Service register não vai ser implementado, a menos que terminemos cedo.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<p>Focar em ter um produto funcional no MVP.
+Demo conta muito -&gt; Ter um dashboard com métricas relevantes.
+Estamos atrasados, acelerar nesta iteração.</p>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 6]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute6/minute6</id>
