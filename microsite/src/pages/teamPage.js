@@ -8,7 +8,7 @@ function TeamPage() {
             name: 'Rodrigo Abreu',
             url: 'https://github.com/rodrigoabreu22',
             image_url: 'https://avatars.githubusercontent.com/u/119303263?s=400&u=c2868d24cfc281fee84c38cff09cb813be0420b1&v=4',
-            mainRole: 'Team Manager, Backend Developer',
+            mainRole: 'Team Manager, Backend Engineer',
         },
         {
             name: 'Eduardo Lopes',

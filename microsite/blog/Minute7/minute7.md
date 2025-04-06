@@ -61,6 +61,6 @@ authors: [rodrigo]
 
 
 ## Notas
-Focar em ter um produto funcional no MVP.
-Demo conta muito -> Ter um dashboard com métricas relevantes.
-Estamos atrasados, acelerar nesta iteração.
+- Focar em ter um produto funcional no MVP.
+- Demo conta muito -> Ter um dashboard com métricas relevantes.
+- Estamos atrasados, acelerar nesta iteração.
