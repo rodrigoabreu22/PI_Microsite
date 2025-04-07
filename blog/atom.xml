@@ -2,11 +2,96 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-03-31T00:00:00.000Z</updated>
+    <updated>2025-04-07T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 8]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute8/minute8</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute8/minute8"/>
+        <updated>2025-04-07T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Apresentação MS3</li>
+<li>Groundtruth</li>
+<li>Estado da implementação</li>
+<li>Próximos passos</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="powerpoint">Powerpoint<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#powerpoint" class="hash-link" aria-label="Direct link to Powerpoint" title="Direct link to Powerpoint">​</a></h3>
+<ul>
+<li>Alterar última linha do SoA. -&gt; Apontar a lacuna e o que nós vamos melhorar.</li>
+<li>Arquitetura -&gt; alterar a ligação do chronograph ao service register.</li>
+<li>Alterar diagramando deployment -&gt; Adicionar as novas coisas.</li>
+<li>Alterar foto do pacote JSON -&gt; Dividir em 2 para ficar readable e dar highlight a partes importantes.</li>
+<li>Future work -&gt; Falta falar de ML.</li>
+<li>Demo -&gt; mostrar interface, logs, containers e código.</li>
+<li>Mostrar calendário atualizado (de forma dinâmica).</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="geral">Geral<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#geral" class="hash-link" aria-label="Direct link to Geral" title="Direct link to Geral">​</a></h3>
+<ul>
+<li>No processor fazer chunking.</li>
+<li>Documentar tópicos do kafka.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="groundtruth">Groundtruth<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#groundtruth" class="hash-link" aria-label="Direct link to Groundtruth" title="Direct link to Groundtruth">​</a></h3>
+<ul>
+<li>Match do timestamp com o timestamp do pacote.</li>
+<li>Usar timestamp e ports para verificar o que estava a acontecer.</li>
+<li>Fazer subset dos ataques.</li>
+<li>Timestamps: start time é o inicio da flow e last time o fim. (uma flow inclui vários pacotes)</li>
+<li>Carregar o CSV do groundtruth em memória.</li>
+<li>Se der valores diferentes, não preocupar porque pode ter havido mudanças no código do nProbe.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h3>
+<ul>
+<li>O modelo só treina quando tem dados suficientes.</li>
+<li>Acumula dados num buffer e depois usa para treino.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="data-processor">Data Processor<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#data-processor" class="hash-link" aria-label="Direct link to Data Processor" title="Direct link to Data Processor">​</a></h2>
+<ul>
+<li>Meter o pré-processamento das queries da BD do lado do Processor.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Acabar o powerpoint ASAP.</li>
+<li>Atualizar Microsite com as coisas da MS3.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute8/minute8#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
+<ul>
+<li>
+<p>Arquitetura do MVP
+<img decoding="async" loading="lazy" alt="Arquitetura do MVP" src="https://github.com/PI_Microsite/assets/images/arquitetura_mvp-d51758bfd544ef6a4825335f6b571033.png" width="1024" height="452" class="img_ev3q"></p>
+</li>
+<li>
+<p>Arquitetura Final
+<img decoding="async" loading="lazy" alt="Architecture Diagram" src="https://github.com/PI_Microsite/assets/images/arquitetura-e315f028bdee454619ec4112100b071a.png" width="1025" height="521" class="img_ev3q"></p>
+</li>
+</ul>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 7]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute7/minute7</id>
@@ -70,9 +155,11 @@
 <li>Service register não vai ser implementado, a menos que terminemos cedo.</li>
 </ul>
 <h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute7/minute7#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
-<p>Focar em ter um produto funcional no MVP.
-Demo conta muito -&gt; Ter um dashboard com métricas relevantes.
-Estamos atrasados, acelerar nesta iteração.</p>]]></content>
+<ul>
+<li>Focar em ter um produto funcional no MVP.</li>
+<li>Demo conta muito -&gt; Ter um dashboard com métricas relevantes.</li>
+<li>Estamos atrasados, acelerar nesta iteração.</li>
+</ul>]]></content>
         <author>
             <name>Rodrigo Abreu</name>
             <uri>https://github.com/rodrigoabreu22</uri>
@@ -320,7 +407,7 @@ Estamos atrasados, acelerar nesta iteração.</p>]]></content>
 </li>
 <li>
 <p>Arquitetura depois das alterações (Versão MS2):
-<img decoding="async" loading="lazy" alt="Arquitetura v2" src="https://github.com/PI_Microsite/assets/images/arquitetura-4121836d2499313dbba5e81460c78b98.png" width="1011" height="451" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="Arquitetura v2" src="https://github.com/PI_Microsite/assets/images/arquitetura-e315f028bdee454619ec4112100b071a.png" width="1025" height="521" class="img_ev3q"></p>
 </li>
 </ul>]]></content>
         <author>
