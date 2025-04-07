@@ -145,6 +145,10 @@ const config = {
                 label: 'Data Flow',
                 to: 'docs/documentation/data_flow',
               },
+              {
+                label: 'Calendar',
+                to: 'docs/documentation/calendar',
+              },
 
             ],
           },
@@ -162,6 +166,10 @@ const config = {
               {
                 label: 'Checkpoint 1',
                 to: 'docs/deliverables/checkpoint1',
+              },
+              {
+                label: 'MS3 - Construction Phase',
+                to: 'docs/deliverables/ms3',
               },
             ],
           },
@@ -195,6 +203,10 @@ const config = {
               {
                 label: 'Minute 7',
                 to: 'blog/Minute7/minute7',
+              },
+              {
+                label: 'Minute 8',
+                to: 'blog/Minute8/minute8',
               },
             ],
           },
