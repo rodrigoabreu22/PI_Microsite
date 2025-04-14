@@ -4,10 +4,83 @@
         <title>Intelligence in Action: AI-Driven Networks Blog</title>
         <link>https://github.com/PI_Microsite/blog</link>
         <description>Intelligence in Action: AI-Driven Networks Blog</description>
-        <lastBuildDate>Mon, 07 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 14 Apr 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Minute 9]]></title>
+            <link>https://github.com/PI_Microsite/blog/Minute9/minute9</link>
+            <guid>https://github.com/PI_Microsite/blog/Minute9/minute9</guid>
+            <pubDate>Mon, 14 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Método]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Chronograf</li>
+<li>ML</li>
+<li>5G INtegration</li>
+<li>Novos horários de reuniões</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<ul>
+<li>duvidas no chronograph</li>
+<li>conexão entre o chronograf e um influx</li>
+<li>Pipline sem ML a funcionar e depois focar no resto</li>
+<li>Malta da integração com o 5g se não estiverem a fazer nada, podem começar.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h2>
+<ul>
+<li>
+<p>O ML vai ter de conseguir pedir dados por API ao Data Processor.</p>
+</li>
+<li>
+<p>Ir buscar o dataset</p>
+</li>
+<li>
+<p>Ver modelos para aplicar.</p>
+</li>
+<li>
+<p>Quando eles fizerem as previsões.</p>
+</li>
+<li>
+<p>Transformar num pickle.</p>
+</li>
+<li>
+<p>Sempre que o modelo estiver pronto, mandar para o inference.</p>
+</li>
+<li>
+<p>Divisão de features</p>
+</li>
+</ul>
+<h1>5G Integration</h1>
+<ul>
+<li>Ver as APIs da release 18.</li>
+</ul>
+<h1>Planeamento das proximas reuniões durante a Pácoa e Semana Académica.</h1>
+<p>22/04 10h
+28/04 ???</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute9/minute9#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Acabar a pipeline o mais rápido possível, para conseguir passar à parte de ML.</li>
+</ul>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Minute 8]]></title>
             <link>https://github.com/PI_Microsite/blog/Minute8/minute8</link>
