@@ -212,6 +212,10 @@ const config = {
                 label: 'Minute 9',
                 to: 'blog/Minute9/minute9',
               },
+              {
+                label: 'Minute 10',
+                to: 'blog/Minute10/minute10',
+              },
             ],
           },
         ],
