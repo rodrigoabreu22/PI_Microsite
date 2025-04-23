@@ -2,11 +2,108 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-04-14T00:00:00.000Z</updated>
+    <updated>2025-04-22T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 10]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute10/minute10</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute10/minute10"/>
+        <updated>2025-04-22T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>10:00 - 11:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>APIs 5G</li>
+<li>Componente de Machine Learning</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apis-5g">APIs 5G<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#apis-5g" class="hash-link" aria-label="Direct link to APIs 5G" title="Direct link to APIs 5G">​</a></h3>
+<ul>
+<li>No data relay, temos de comunicar com o NRF para ir buscar um URL para saber onde fazer post dos dados (exposição default da NWDAF)</li>
+<li>Temos de nos registar no NRF</li>
+<li>Inicialmente fazer isto de forma automatica ao dar up à pipeline</li>
+<li>Ver NEF para ir buscar os dados</li>
+<li>Na resposta chega  ter o IP e a port da NF instance</li>
+<li>Ser compliant é passar em testes unitários e de integração.</li>
+<li>Escolher o que nós queremos do payload e usar</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h3>
+<ul>
+<li>Ter um modelo, dar deployment e avaliá-lo.</li>
+<li>Escolher features, escolher modelo e submeter modelo.</li>
+<li>Usar diretamente o csv para termos logo muitos dados.</li>
+<li>Primeiro testes unitários, depois testes de integração.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="balancear-dados-de-treino">Balancear dados de treino.<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#balancear-dados-de-treino" class="hash-link" aria-label="Direct link to Balancear dados de treino." title="Direct link to Balancear dados de treino.">​</a></h4>
+<ul>
+<li>
+<p>SMOTE</p>
+</li>
+<li>
+<p>Gerar dados artificiais negativos para balancear ou cortam positivos.</p>
+</li>
+<li>
+<p>Alterar a pipeline para mandar dados mais rapidamente.</p>
+</li>
+<li>
+<p>Teste com o groundtruth é no ML Training.</p>
+</li>
+<li>
+<p>Para validar o eval é só no modelo em deployment.</p>
+</li>
+<li>
+<p>.corr_metrics no pandas -&gt; indica a relação das features entre si.</p>
+</li>
+<li>
+<p>correlação 0 entre features é mau -&gt; não conseguimos retirar relação.</p>
+</li>
+<li>
+<p>em princípio não precisaremos de mais do que aqueles modelos classificativos (Random Forest, XGBoosting, NN).</p>
+</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="model-testing-report">Model Testing Report:<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#model-testing-report" class="hash-link" aria-label="Direct link to Model Testing Report:" title="Direct link to Model Testing Report:">​</a></h4>
+<ul>
+<li>PRECISION: Quantidade de instâncias positivas que de facto são positivas.</li>
+<li>São muito usados na saúde porque não geram tantos falsos positivos</li>
+<li>F1: Medida que vamos considerar (balanceada).</li>
+<li>O que se usa hoje em dia é MCC -&gt; Mas vamos usar F1 Score.</li>
+<li>Não vamos usar accuracy -&gt; extremamente biased principalmente no nosso caso.</li>
+<li>Mudar de classificativo para binário para simplificar. Ver só se é ataque ou não ataque.</li>
+<li>Quando conseguirmos ter o binário em condições -&gt; Passar para classificativo.</li>
+<li>weighted avg -&gt; avg de acordo com as classes.</li>
+<li>macro avg -&gt; desconsidera qualquer peso.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Próxima reunião: 30/04 14:00h</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros Relacionados<a href="https://github.com/PI_Microsite/blog/Minute10/minute10#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros Relacionados" title="Direct link to Ficheiros Relacionados">​</a></h2>
+<p>Exemplo de um relatório de testes dos modelos.</p>
+<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:13:51,510 - INFO - Model training complete.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:06,972 - INFO - Starting the ML pipeline...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:06,972 - INFO - Fetching new training data from ClickHouse...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,024 - INFO - Fetched 8210 rows and 46 columns</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,024 - INFO - Preprocessing data...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,030 - INFO - Attack labels encoded: [' Fuzzers ', ' Reconnaissance ', 'Benign', 'DoS', 'Exploits', 'Generic']</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,031 - INFO - Rows with Label = 1: 39</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,031 - INFO - Final dataset shape after preprocessing: (8210, 43)</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,031 - INFO - Training and comparing classifiers...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,034 - INFO - Training Random Forest...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,299 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">--- Classification Report: Random Forest ---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,303 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">              precision    recall  f1-score   support</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           1       0.00      0.00      0.00         1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           2       1.00      1.00      1.00      1636</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           4       1.00      0.20      0.33         5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    accuracy                           1.00      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   macro avg       0.67      0.40      0.44      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">weighted avg       1.00      1.00      1.00      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:07,303 - INFO - Training Gradient Boosting...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,447 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">--- Classification Report: Gradient Boosting ---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,451 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">              precision    recall  f1-score   support</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           0       0.00      0.00      0.00         0</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           1       0.00      0.00      0.00         1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           2       1.00      1.00      1.00      1636</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           4       1.00      0.40      0.57         5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    accuracy                           1.00      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   macro avg       0.50      0.35      0.39      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">weighted avg       1.00      1.00      1.00      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,451 - INFO - Training MLP (Neural Network)...</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,639 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">--- Classification Report: MLP (Neural Network) ---</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,644 - INFO - </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">              precision    recall  f1-score   support</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           1       0.00      0.00      0.00         1</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           2       1.00      1.00      1.00      1636</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">           4       0.00      0.00      0.00         5</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">    accuracy                           1.00      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">   macro avg       0.33      0.33      0.33      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">weighted avg       0.99      1.00      0.99      1642</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2025-04-22 00:20:14,645 - INFO - Model training complete.</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 9]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute9/minute9</id>
