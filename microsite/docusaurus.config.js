@@ -171,6 +171,10 @@ const config = {
                 label: 'MS3 - Construction Phase',
                 to: 'docs/deliverables/ms3',
               },
+              {
+                label: 'Checkpoint 2',
+                to: 'docs/deliverables/checkpoint2',
+              },
             ],
           },
           {
@@ -216,6 +220,10 @@ const config = {
                 label: 'Minute 10',
                 to: 'blog/Minute10/minute10',
               },
+              {
+                label: 'Minute 12',
+                to: 'blog/Minute12/minute12'
+              }
             ],
           },
         ],
