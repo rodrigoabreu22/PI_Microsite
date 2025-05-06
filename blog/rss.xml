@@ -4,10 +4,68 @@
         <title>Intelligence in Action: AI-Driven Networks Blog</title>
         <link>https://github.com/PI_Microsite/blog</link>
         <description>Intelligence in Action: AI-Driven Networks Blog</description>
-        <lastBuildDate>Tue, 22 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Mon, 05 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Minute 12]]></title>
+            <link>https://github.com/PI_Microsite/blog/Minute12/minute12</link>
+            <guid>https://github.com/PI_Microsite/blog/Minute12/minute12</guid>
+            <pubDate>Mon, 05 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Método]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>APIs 5G</li>
+<li>Implementação dos algoritmos de ML</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apis-5g">APIs 5G<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#apis-5g" class="hash-link" aria-label="Direct link to APIs 5G" title="Direct link to APIs 5G">​</a></h3>
+<ul>
+<li>NWDAF é mais que o coletor. Não fazer nada com eles é estranho.</li>
+<li>O santard não te deve impedir.</li>
+<li>Solução para a implementação a ser discutida durante a semana.</li>
+<li>Não temos API no core 5G, é um dashboard.</li>
+<li>Usar de forma programática é impossível.</li>
+<li>Ver APIs do 5G versão alfa.</li>
+<li>Deixar estar o nProbe.</li>
+<li>Essas APIs vão dar para fazer a manutenção dos modelos.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h3>
+<ul>
+<li>o mesmo topico do consumer do clickhouse é o do ml inference</li>
+<li>Estamos com bons resultados nos modelos.</li>
+<li>Não precisamos de Deep NN (por enquanto não temos justificação para a usar) -&gt; pode não ser necessário usar Keras</li>
+<li>Parar de fazer cold start ou separar o docker de forma a deixar a correr até ao processor e o resto estar separado</li>
+<li>API para fazer post do pickle do melhor modelo (do training para o inference)</li>
+<li>Modelo classificativo deve treinar só com os dados de ataques.</li>
+<li>muito dificil construir um modelo que distingue entre ataque e não ataque e qual o tipo de ataque</li>
+<li>modelo mais eficiente em inferência do que em treino</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Mostrar nova arquitetura ao orientador Rafael Direito.</li>
+<li>Preparar o checkpoint 2.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros Relacionados<a href="https://github.com/PI_Microsite/blog/Minute12/minute12#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros Relacionados" title="Direct link to Ficheiros Relacionados">​</a></h2>]]></content:encoded>
+        </item>
         <item>
             <title><![CDATA[Minute 10]]></title>
             <link>https://github.com/PI_Microsite/blog/Minute10/minute10</link>
