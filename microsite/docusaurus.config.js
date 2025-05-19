@@ -175,6 +175,10 @@ const config = {
                 label: 'Checkpoint 2',
                 to: 'docs/deliverables/checkpoint2',
               },
+              {
+                label: 'Checkpoint 3',
+                to: 'docs/deliverables/checkpoint3',
+              },
             ],
           },
           {
