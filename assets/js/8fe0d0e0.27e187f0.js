@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmy_website=self.webpackChunkmy_website||[]).push([[7213],{2074:e=>{e.exports=JSON.parse('{"metadata":{"permalink":"/PI_Microsite/blog","page":1,"postsPerPage":10,"totalPages":2,"totalCount":13,"nextPage":"/PI_Microsite/blog/page/2","blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

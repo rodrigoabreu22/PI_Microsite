@@ -2,11 +2,144 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-05-05T00:00:00.000Z</updated>
+    <updated>2025-05-19T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 14]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute14/minute14</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute14/minute14"/>
+        <updated>2025-05-19T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito (remoto) ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto (remoto) ✔️</li>
+<li>Hugo Ribeiro (remoto) ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Implementação dos algoritmos de ML</li>
+<li>APIs 5G</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h3>
+<ul>
+<li>deixar algumas coisas que temos conhecimento</li>
+<li>fazer plot da accuracy do modelo ao longo do tempo</li>
+<li>graficos é uma boa solução para mostrar o nosso trabalho</li>
+<li>fazer hiperparameterização</li>
+<li>dar trigger ao retraining quando se deteta um novo ataque.</li>
+<li>temos de dar numeros que impressionem para vender o nosso trabalho.</li>
+<li>ilustrar complexidade</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apis-5g">APIs 5G<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#apis-5g" class="hash-link" aria-label="Direct link to APIs 5G" title="Direct link to APIs 5G">​</a></h3>
+<ul>
+<li>subscrever um modelo deployed e fazia alerta para uma api externa</li>
+<li>usar webhooks para simplificar</li>
+<li>focar no re-training e ignorar a parte de monitoring</li>
+<li>Implementar API para treino por pedido para permitir que o operador de rede consiga analisar a evolução dos modelos com a mudança dos dados</li>
+<li>API recente, logo os seus esquemas são limitados relativamente aos dados q ela permite expor</li>
+<li>Esta API dá valor ao trabalho porque aproxima a nossa parte de ML a aquilo q realmente se verifica nas especificações (TS) da NWDAF</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Esta reunião teve uma primeira parte com o orientador Rafael Teixeira presencialmente, com todos os elementos do grupo presentes (uns remotamente e outros presencialmente).
+Segunda parte da reunião foi remotamente com o orientador Rafael Direito mais focada na área de 5G e apenas os seguintes elementos do grupo estiveram presentes: Rodrigo, Eduardo e Jorge.</li>
+<li>Atualizar arquitetura.</li>
+<li>Preparar o checkpoint 3.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute14/minute14#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
+<ul>
+<li>Arquitetura atualizada</li>
+</ul>
+<p><img decoding="async" loading="lazy" alt="alt text" src="https://github.com/PI_Microsite/assets/images/Arquitetura-6b606248812fb3e7e48dfecc9f05a950.png" width="1095" height="521" class="img_ev3q"></p>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Minute 13]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute13/minute13</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute13/minute13"/>
+        <updated>2025-05-14T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Presencial</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>14:00 - 15:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira ✔️</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>APIs 5G</li>
+<li>Implementação dos algoritmos de ML</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="ml">ML<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#ml" class="hash-link" aria-label="Direct link to ML" title="Direct link to ML">​</a></h3>
+<ul>
+<li>Pull periodico</li>
+<li>Meter ML Training a consumir do topico dos dados processados</li>
+<li>trigger do retraining</li>
+<li>dividir dados "stratified split"</li>
+<li>Model as a Service</li>
+<li>Guardar em memória a performance do modelo.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="apis-5g">APIs 5G<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#apis-5g" class="hash-link" aria-label="Direct link to APIs 5G" title="Direct link to APIs 5G">​</a></h3>
+<ul>
+<li>Equilibrar a velocidade de consumo dos pacotes, é importante não abrandar o 5G.</li>
+<li>Meter a parte de ML integrada com o 5G.</li>
+<li>Conseguir decidir qual modelo treinar pelas apis, obter os resultados de cada um e escolher o modelo certo de acordo com os dados.</li>
+<li>Usar só o que precisamos do payload.</li>
+<li>Identificar falhas das especificações.</li>
+<li>Analisar melhor as 3 APIs de ML (provision, training e monitor)</li>
+<li>Analisar os esquemas das APIs, uma vez q são recentes, estes podem ser um pouco incompletos</li>
+<li>Documentar todas as alterações feitas nos esquemas utilizados ("crítica construtiva" para melhorar as TS)</li>
+<li>Testar bem as APIs para garantir que não introduzem atraso na rede 5G</li>
+</ul>
+<p>Análise do Abstract para o students@deti</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros Relacionados<a href="https://github.com/PI_Microsite/blog/Minute13/minute13#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros Relacionados" title="Direct link to Ficheiros Relacionados">​</a></h2>
+<ul>
+<li>
+<p>Logo para o students@deti
+<img decoding="async" loading="lazy" alt="Logo" src="https://github.com/PI_Microsite/assets/images/image-eea60d736e59c9732c1a83df14c6e3ad.png" width="643" height="643" class="img_ev3q"></p>
+</li>
+<li>
+<p>Abstract</p>
+</li>
+</ul>
+<pre tabindex="0" class="codeBlockStandalone_MEMb thin-scrollbar codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"></code></pre>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 12]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute12/minute12</id>
@@ -320,7 +453,7 @@
 </li>
 <li>
 <p>Arquitetura Final
-<img decoding="async" loading="lazy" alt="Architecture Diagram" src="https://github.com/PI_Microsite/assets/images/arquitetura-e315f028bdee454619ec4112100b071a.png" width="1025" height="521" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="Architecture Diagram" src="https://github.com/PI_Microsite/assets/images/arquitetura-6b606248812fb3e7e48dfecc9f05a950.png" width="1095" height="521" class="img_ev3q"></p>
 </li>
 </ul>]]></content>
         <author>
@@ -643,7 +776,7 @@
 </li>
 <li>
 <p>Arquitetura depois das alterações (Versão MS2):
-<img decoding="async" loading="lazy" alt="Arquitetura v2" src="https://github.com/PI_Microsite/assets/images/arquitetura-e315f028bdee454619ec4112100b071a.png" width="1025" height="521" class="img_ev3q"></p>
+<img decoding="async" loading="lazy" alt="Arquitetura v2" src="https://github.com/PI_Microsite/assets/images/arquitetura-6b606248812fb3e7e48dfecc9f05a950.png" width="1095" height="521" class="img_ev3q"></p>
 </li>
 </ul>]]></content>
         <author>
