@@ -59,10 +59,7 @@ Análise do Abstract para o students@deti
 ![Logo](image.png)
 
 - students@deti abstract
-```
-Modern networks have evolved from static infrastructures into dynamic, intelligent, and adaptive systems. 5G and Beyond 5G networks need to handle large volumes of data, support a wide variety of applications, and ensure high reliability and low latency. However, increased data flow can degrade network performance, and usage spikes may compromise service quality. Additionally, technical challenges such as high latency and packet loss affect data transmission, while physically expanding infrastructure requires large investment.
 
+> Modern networks have evolved from static infrastructures into dynamic, intelligent, and adaptive systems. 5G and Beyond 5G networks need to handle large volumes of data, support a wide variety of applications, and ensure high reliability and low latency. However, increased data flow can degrade network performance, and usage spikes may compromise service quality. Additionally, technical challenges such as high latency and packet loss affect data transmission, while physically expanding infrastructure requires large investment.
 To address these challenges, this work proposes the development of a scalable and modular MLOps pipeline capable of integrating machine learning and automation to optimize networks. The system will be designed to identify patterns within the network, facilitating adaptive optimization and automated decision-making.
-
-Our case study focuses on anomaly detection, a critical function for maintaining optimal network performance and security. By leveraging machine learning models within the MLOps pipeline, the system can identify nine types of attacks amidst benign traffic. This approach minimizes service disruptions, enhances reliability, and supports the network’s capacity to self-heal and adapt to varying conditions, ensuring consistent quality of service across diverse and demanding applications.
-``` 
+Our case study focuses on anomaly detection, a critical function for maintaining optimal network performance and security. By leveraging machine learning models within the MLOps pipeline, the system can identify nine types of attacks amidst benign traffic. This approach minimizes service disruptions, enhances reliability, and supports the network’s capacity to self-heal and adapt to varying conditions, ensuring consistent quality of service across diverse and demanding applications. 
