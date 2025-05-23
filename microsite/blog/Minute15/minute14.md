@@ -7,7 +7,7 @@ authors: [rodrigo]
 # Fase: MS4
 
 ## Método
-**Presencial**
+**Remoto**
 
 ## Duração
 **16:15 - 16:50**
@@ -30,7 +30,7 @@ authors: [rodrigo]
 
 ## Resumo
 
-### Deployment em Kubernetes? 
+#### Deployment em Kubernetes? 
 
 - Docker compose analisado.
 - Não faz grande diferença para nós e é complexa a implementação por termos muitos volumes.
@@ -38,11 +38,11 @@ authors: [rodrigo]
 - Deixamos tudo pronto para ser implementado.
 
 
-Video
+#### Video
 - Mostrar o script atual como exemplo.
 - Realçar o resto das coisas: MLOPs pipeline, Estatisticas dos modelos pelas APIs, standards do 3Gpp. Continuous Delivery e Deployment.
 
-Demo
+#### Demo
 - Mostrar dashboard do Chronograf.
 - Observability: graficos com a evolução dos modelos, pagina html a mostrar os dados a aumentar.
 - Ilustrar as APIs a funcionar com o Webhook.
