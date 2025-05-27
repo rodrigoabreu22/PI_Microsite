@@ -149,7 +149,10 @@ const config = {
                 label: 'Calendar',
                 to: 'docs/documentation/calendar',
               },
-
+              {
+                label: 'students@deti',
+                to: 'docs/documentation/students_deti',
+              },
             ],
           },
           {
@@ -239,6 +242,10 @@ const config = {
               {
                 label: 'Minute 15',
                 to: 'blog/Minute15/minute15'
+              },
+              {
+                label: 'Minute 16',
+                to: 'blog/Minute16/minute16'
               }
             ],
           },
