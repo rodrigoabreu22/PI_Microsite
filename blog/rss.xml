@@ -4,12 +4,69 @@
         <title>Intelligence in Action: AI-Driven Networks Blog</title>
         <link>https://github.com/PI_Microsite/blog</link>
         <description>Intelligence in Action: AI-Driven Networks Blog</description>
-        <lastBuildDate>Fri, 23 May 2025 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 27 May 2025 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
         <item>
-            <title><![CDATA[Minute 14]]></title>
+            <title><![CDATA[Minute 16]]></title>
+            <link>https://github.com/PI_Microsite/blog/Minute16/minute16</link>
+            <guid>https://github.com/PI_Microsite/blog/Minute16/minute16</guid>
+            <pubDate>Tue, 27 May 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[Método]]></description>
+            <content:encoded><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Remoto</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira</li>
+<li>Rafael Direito (remoto) ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Poster</li>
+<li>Video Promocional</li>
+<li>Demo</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="poster">Poster<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#poster" class="hash-link" aria-label="Direct link to Poster" title="Direct link to Poster">​</a></h4>
+<ul>
+<li>Muito texto na primeira parte.</li>
+<li>Separar o caso de uso implementado dos objetivos concretos.</li>
+<li>Falar mais individualmente daquilo que os componentes fazem.</li>
+<li>No Validation, apresentar o que foi feito no caso de uso e resultados.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="video">Video<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#video" class="hash-link" aria-label="Direct link to Video" title="Direct link to Video">​</a></h4>
+<ul>
+<li>Bom no geral.</li>
+<li>Mostra demasiado a parte de MLOps.</li>
+<li>Mostrar mais parte das integração com o 5G, assim como foi feito para MLOps.</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="demo">Demo<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#demo" class="hash-link" aria-label="Direct link to Demo" title="Direct link to Demo">​</a></h4>
+<ul>
+<li>Mostrar fluxo de dados na pipeline.</li>
+<li>Mostrar as APIs com Webhooks.</li>
+<li>Mostrar o chronograf.</li>
+<li>Mostrar Dashboard.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Ajustes ao poster e video promocional.</li>
+<li>Fazer a demo.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute16/minute16#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Minute 15]]></title>
             <link>https://github.com/PI_Microsite/blog/Minute15/minute15</link>
             <guid>https://github.com/PI_Microsite/blog/Minute15/minute15</guid>
             <pubDate>Fri, 23 May 2025 00:00:00 GMT</pubDate>
@@ -63,11 +120,7 @@
 <li>Melhorar script do video promocional</li>
 <li>Acabar os ultimos fixes ao codigo ASAP</li>
 </ul>
-<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute15/minute15#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>
-<ul>
-<li>Script atual</li>
-</ul>
-<div class="codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-text codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token plain">A minha ideia realista de video promocional:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Atores: Rodrigo, João, Edu, Hugo.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Camara Man: Jorge</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Editor: Joana</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Setup:</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">João no PC com uma sweat com o capuz posto e com o terminal aberto a correr algo no terminal e a escrever no teclado para parecer que está a hackear a rede. Num panorama assim meio shady no canto da sala do IT. </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Edu no pc com o chronograf aberto com os dashboards a dar informações, a usar os monitores nas mesas que nós usamos no IT.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Hugo e Rodrigo cada um no telemóvel a fazer alguma cena juntos (ver video, jogar, ver reels, etc).</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">1ª cena - Hugo e Rodrigo a mexer no telemovel/pc</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Hugo e Rodrigo a ver o video, tipo a comentar e a rir  sobre o que estão a fazer.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Corta para 2ª cena</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">2ª cena - João a Hackear a rede</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Câmara a apanahar o João e o monitor do pc com o terminal aberto e o joão a mexer nas teclas para parecer que está a hackear. </span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">João termina de mexer dá enter e corta para a cara dele a esfregar as mãos e a rir-se enquanto diz: "Agora é só esperar que a rede vá abaixo!"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Corta para 3ª cena</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">3ª cena - Rodrigo e Hugo ficam sem net</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">O video para e aparece uma informação a dizer que ficou sem net no ecrã. Rodrigo e Hugo ficam chateados.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Hugo: "O que é que se passa?"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Rodrigo: "Acho que a net não está a dar."</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Corta para a 4ª cena</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">4ª cena - Edu deteta o ataque no pc</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Câmara a apontar para o Edu no pc, sem se ver o ecrã.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Edu: "O sistema NDAP detetou um ataque na rede, vamos já resolver o problema!". E começa a mexer no pc durante 2s dá enter e diz: "Feito a rede voltou ao normal."</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Corta para a 5ª cena</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">5ª cena - Rodrigo e Hugo voltam a ter net</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Rodrigo: "Olha a net voltou, vamos voltar ao video"</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Hugo: "Boa" 3s a ver e começam os 2 a rir.</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">Corta para 6ªa cena</span><br></span><span class="token-line" style="color:#393A34"><span class="token plain" style="display:inline-block"></span><br></span><span class="token-line" style="color:#393A34"><span class="token plain">João a olhar para o pc: "NAAAAAOOOO, o meu ataque não fez nada."</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>]]></content:encoded>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute15/minute15#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>]]></content:encoded>
         </item>
         <item>
             <title><![CDATA[Minute 14]]></title>
