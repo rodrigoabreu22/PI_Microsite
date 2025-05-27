@@ -149,10 +149,6 @@ const config = {
                 label: 'Calendar',
                 to: 'docs/documentation/calendar',
               },
-              {
-                label: 'students@deti',
-                to: 'docs/documentation/students_deti',
-              },
             ],
           },
           {
@@ -181,6 +177,10 @@ const config = {
               {
                 label: 'Checkpoint 3',
                 to: 'docs/deliverables/checkpoint3',
+              },
+              {
+                label: 'Students@DETI',
+                to: 'docs/deliverables/students_deti',
               },
             ],
           },
