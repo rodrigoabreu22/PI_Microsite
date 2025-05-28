@@ -1,0 +1,45 @@
+.cardLink {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  margin: 30px 0;
+}
+
+.posterCard {
+  width: 360px;
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.1);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+}
+
+.posterCard:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.posterImage {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.cardContent {
+  padding: 16px;
+}
+
+.cardTitle {
+  font-size: 1.3rem;
+  font-weight: 600;
+  margin: 0 0 8px;
+  color: #111;
+}
+
+.cardText {
+  font-size: 0.95rem;
+  color: #666;
+}

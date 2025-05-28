@@ -17,7 +17,7 @@ const FeatureList = [
     Svg: require('@site/static/img/ai.svg').default,
     description: (
       <>
-        An MLOps pipeline will be integrated into the network software to predict anomalies, enabling self-optimization.
+        An MLOps pipeline will be integrated into the network software to detect attacks, enabling self-optimization.
         This will improve network efficiency, availability, and consistency.
       </>
     ),
