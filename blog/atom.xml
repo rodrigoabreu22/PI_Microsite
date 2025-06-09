@@ -2,11 +2,73 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://github.com/PI_Microsite/blog</id>
     <title>Intelligence in Action: AI-Driven Networks Blog</title>
-    <updated>2025-05-27T00:00:00.000Z</updated>
+    <updated>2025-06-02T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://github.com/PI_Microsite/blog"/>
     <subtitle>Intelligence in Action: AI-Driven Networks Blog</subtitle>
     <icon>https://github.com/PI_Microsite/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Minute 17]]></title>
+        <id>https://github.com/PI_Microsite/blog/Minute17/minute17</id>
+        <link href="https://github.com/PI_Microsite/blog/Minute17/minute17"/>
+        <updated>2025-06-02T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Método]]></summary>
+        <content type="html"><![CDATA[<h2 class="anchor anchorWithStickyNavbar_LWe7" id="método">Método<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#m%C3%A9todo" class="hash-link" aria-label="Direct link to Método" title="Direct link to Método">​</a></h2>
+<p><strong>Remoto</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="duração">Duração<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#dura%C3%A7%C3%A3o" class="hash-link" aria-label="Direct link to Duração" title="Direct link to Duração">​</a></h2>
+<p><strong>9:00 - 10:00</strong></p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="supervisores-presentes">Supervisores presentes<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#supervisores-presentes" class="hash-link" aria-label="Direct link to Supervisores presentes" title="Direct link to Supervisores presentes">​</a></h2>
+<ul>
+<li>Rafael Teixeira</li>
+<li>Rafael Direito ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="membros-presentes">Membros presentes<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#membros-presentes" class="hash-link" aria-label="Direct link to Membros presentes" title="Direct link to Membros presentes">​</a></h2>
+<ul>
+<li>Rodrigo Abreu ✔️</li>
+<li>Eduardo Lopes ✔️</li>
+<li>João Neto ✔️</li>
+<li>Hugo Ribeiro ✔️</li>
+<li>Jorge Domingues ✔️</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="assuntos-discutidos">Assuntos discutidos<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#assuntos-discutidos" class="hash-link" aria-label="Direct link to Assuntos discutidos" title="Direct link to Assuntos discutidos">​</a></h2>
+<ul>
+<li>Powerpoint MS4</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="resumo">Resumo<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#resumo" class="hash-link" aria-label="Direct link to Resumo" title="Direct link to Resumo">​</a></h2>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="powepoint">Powepoint<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#powepoint" class="hash-link" aria-label="Direct link to Powepoint" title="Direct link to Powepoint">​</a></h3>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-2">Slide 2<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-2" class="hash-link" aria-label="Direct link to Slide 2" title="Direct link to Slide 2">​</a></h4>
+<p>NWDAF is a core component</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-3">Slide 3<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-3" class="hash-link" aria-label="Direct link to Slide 3" title="Direct link to Slide 3">​</a></h4>
+<p>15s neste slide.</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-4-e-5">Slide 4 e 5<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-4-e-5" class="hash-link" aria-label="Direct link to Slide 4 e 5" title="Direct link to Slide 4 e 5">​</a></h4>
+<p>Ok</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-6789">Slide 6,7,8,9<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-6789" class="hash-link" aria-label="Direct link to Slide 6,7,8,9" title="Direct link to Slide 6,7,8,9">​</a></h4>
+<p>Ok</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide--10">Slide  10<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide--10" class="hash-link" aria-label="Direct link to Slide  10" title="Direct link to Slide  10">​</a></h4>
+<p>Dizer que fizemos aquele da duvida</p>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-11">Slide 11<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-11" class="hash-link" aria-label="Direct link to Slide 11" title="Direct link to Slide 11">​</a></h4>
+<ul>
+<li>Separar as main functionalities do projeto com o caso de uso.</li>
+<li>Meter a implementação do caso de uso no slide a seguir.</li>
+<li>Meter APIs do caso de uso do core 5G</li>
+</ul>
+<h4 class="anchor anchorWithStickyNavbar_LWe7" id="slide-12">Slide 12<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#slide-12" class="hash-link" aria-label="Direct link to Slide 12" title="Direct link to Slide 12">​</a></h4>
+<ul>
+<li>Alterar a parte do software pago no nProbe.</li>
+<li>Cortar o ultimo topico</li>
+</ul>
+<p>Meter um slide de learned lessons.
+Falar do 3Gpp e o facto e ter limitações na parte de ML</p>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="notas">Notas<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#notas" class="hash-link" aria-label="Direct link to Notas" title="Direct link to Notas">​</a></h2>
+<ul>
+<li>Ajustes ao powerpoint e preparar apresentação.</li>
+</ul>
+<h2 class="anchor anchorWithStickyNavbar_LWe7" id="ficheiros-relacionados">Ficheiros relacionados<a href="https://github.com/PI_Microsite/blog/Minute17/minute17#ficheiros-relacionados" class="hash-link" aria-label="Direct link to Ficheiros relacionados" title="Direct link to Ficheiros relacionados">​</a></h2>]]></content>
+        <author>
+            <name>Rodrigo Abreu</name>
+            <uri>https://github.com/rodrigoabreu22</uri>
+        </author>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Minute 16]]></title>
         <id>https://github.com/PI_Microsite/blog/Minute16/minute16</id>
