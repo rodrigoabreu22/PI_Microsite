@@ -149,6 +149,14 @@ const config = {
                 label: 'Calendar',
                 to: 'docs/documentation/calendar',
               },
+              {
+                label: 'Demo',
+                to: 'docs/documentation/demo',
+              },
+              {
+                label: 'Report',
+                to: 'docs/documentation/report',
+              },
             ],
           },
           {
@@ -177,6 +185,10 @@ const config = {
               {
                 label: 'Checkpoint 3',
                 to: 'docs/deliverables/checkpoint3',
+              },
+              {
+                label: 'MS4 - Transition',
+                to: 'docs/deliverables/ms4',
               },
               {
                 label: 'Students@DETI',
