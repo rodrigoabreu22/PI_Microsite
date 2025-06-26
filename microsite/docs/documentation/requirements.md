@@ -3,65 +3,103 @@ sidebar_position: 4
 ---
 
 # Requirements
-Here is presented the requirements elicitation methods, functional requirements (divided by the respective components) and non-functional requirements.
+This section defines the specifications for the developed system’s requirements, which were gathered
+through weekly meetings with project supervisors and collaborative brainstorming sessions involving all
+group members. Since the project followed an agile methodology, the requirements list was continuously
+refined to accommodate evolving objectives and emerging challenges.
 
-## Requirements Elicitation
-This process was divided into four parts. The first part consisted of investigating the project's theme and its context to obtain maximum knowledge in the field of **telecommunications and 5G networks**. Next, we had to evaluate the most correct way to relate this to the **data engineering and Machine Learning** part of the project. After that, we explored the **state of the art**, evaluating other research works in the area and gathering important information for **discussion among us**.
+The requirements are categorized into two main groups: general pipeline requirements and use case
+specific requirements.
 
 
 ## Functional Requirements
+The system’s functional requirements are organized into several categories according to the main aspects
+of the implementation.
+
 
 ### Data Collection 
-The system: 
-- must collect and store raw data in a time series data base. 
-- system should support JSON and CSV data formats. 
-- system should perform data pre-processing, including cleaning, normalization, and aggregation to ensure quality and consistency. 
+- The system should receive the network data via REST API call.
+- The system data receiver should support JSON data format.
+- The system should use the message bus to integrate the received network data in the pipeline.
 
-### Model 
-The system should:
-- train machine learning (ML) models using frameworks such as PyTorch or Scikit-learn. 
-- allow model training with stored data. 
-- implement automation in model training, supporting continuous re-training based on new data or data drift. 
-- validate and test the models using the obtained metrics. 
-- support a continuous deployment mechanism to automatically move validated models from the test environment to production. 
-- be able to identify the relevant features for anomaly prediction. 
-- not allow the use of future data to train the model. 
+### Data Processing
+- The system should continuously process the raw network data and extract features.
+- The system should clean irrelevant fields from the data.
+- The system should use ground truth information to label received data accordingly.
+- The system should use the message bus to continuously send the processed data to other pipeline components.
 
 
-### Monitoring Dashboard
+### Data Storage
+- The system should store ground truth data in a time series database.
+- The system should store raw network data in the corresponding time series database.
+- The system should store processed network data in the data warehouse.
+- The system should store inference data in the corresponding time series database.
 
-- Must show anomaly alerts. 
-- Must show relevant metrics. 
+### ML
+- The system should apply multiple ML algorithms on training data.
+- The system should apply supervised learning techniques using processed data labels.
+- The system should test and evaluate all the ML models after training and select the best one to be deployed.
+- The system should have a model deployment mechanism.
+- The deployed model should perform inference on real-time processed network data.
+- The system should automate continuous training, testing, and deployment as new volumes of training data arrive.
+- The system should allow manual training via API call.
+- The system should return the respective model training information via callback, after manual training request execution
 
 
-### External Integration 
-The system should:
-- provide APIs so that external functions can subscribe to anomaly and failure events. 
-- enable compliance with 5G architecture standards. 
+### Data Visualization
+- The system should have a dashboard to visualize pipeline network metrics.
+- The dashboard should contain relevant information resulting from network data analytics procedures.
+- The dashboard should contain model inference results on live network data.
+
+### 5G Integration 
+- The system should collect and expose network data, structuring the payload accordingly with respective 5G NFs on API calls.
+- The system should be able to subscribe to event streams from 5GC components via standardized interfaces.
+- The system should support the injection of synthetic 5G data for model training purposes.
+- The system should support high-precision timestamping to ensure data alignment across 5G components.
+
+### Use Case Specific Functional Requirements
+- The system should be able to extract features from raw network data.
+- The system should have two types of ML algorithms, to train to respectively, identify and classify anomalies.
 
 ## Non-Functional Requirements 
+The system must meet the following non-functional requirements:
 
-### Scalability 
+### Compliance & Standards
 
-- The system must efficiently process large volumes of data with a maximum processing latency of 1 milliseconds. 
+- The system should comply with 3GPP specifications for 5G data collection and exposure.
 
-### Performance 
+### Scalability
 
-- To support real-time analytics, data processing should have minimal latency and a response time inferior to 1 millisecond. 
-- ML inference APIs should provide responses within 1 millisecond for fast decision-making. 
+- The system must handle increasing volumes of network data without performance loss.
+- The architecture should support the deployment of multiple ML models in parallel.
+
+### Performance
+
+- The model inference engine should handle 100 predictions per second with no performance degradation.
+- The dashboard should update metrics with a maximum delay of 30 seconds.
+- To support real-time analytics, data processing should have minimal latency and a response time below 1 millisecond.
 
 ### Security 
 
-- The system must be GDPR compliant and keep all data on-premise. 
+- The system must ensure that all data is kept on-premise.
 
-### Maintainability 
-The system: 
-- should use modular components to allow easy updates and debugging. 
-- must allow modules to be replaced by others with higher performance, with minimal impact on other modules. 
-- must be easily adaptable for deployment in several network environments. 
-- must follow good MLOps practices, guaranteeing modularity, reproducibility and complete automation of the ML lifecycle. 
+### Maintainability
 
+- The system codebase should follow clean coding principles and modular architecture to ease future updates.
+- The system must allow modules to be replaced by others with higher performance, with minimal impact on other modules.
+- The system must be easily adaptable for deployment in various network environments.
+- The system must follow good MLOps practices, guaranteeing modularity, reproducibility, and full automation of the ML lifecycle.
 
-### Interoperability 
+### Reliability & Availability
+- If a component fails the rest of the system must remain operational.
+- All data should be persisted in respective databases.
 
-- The system must be interoperable, making available APIs and adopting machine learning frameworks. 
+### Interoperability
+- The system must be interoperable, providing APIs and adopting standardized ML frameworks.
+
+### Logging and Monitoring
+- The system should generate structured logs if errors occur for all pipeline stages.
+
+### Use Case Specific Non-Functional Requirements
+- The binary model should reach an F1 score percentage above 90%.
+- The classification model should reach an F1 score percentage above 90%.
